@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/holdon.iml" filepath="$PROJECT_DIR$/holdon.iml" />
       <module fileurl="file://$PROJECT_DIR$/holdon-session/holdon-session.iml" filepath="$PROJECT_DIR$/holdon-session/holdon-session.iml" />
+      <module fileurl="file://$PROJECT_DIR$/holdon-web/holdon-web.iml" filepath="$PROJECT_DIR$/holdon-web/holdon-web.iml" />
     </modules>
   </component>
 </project>

@@ -36,6 +36,10 @@ public class LoginController {
 
     @RequestMapping("/logout")
     public String doLogin(HttpSession httpSession) {
+        String account = (String) httpSession.getAttribute("account");
+        String password = (String) httpSession.getAttribute("password");
+        System.out.println("1--logout--账户是：\t" + account);
+        System.out.println("1--logout--密码是：\t" + password);
         httpSession.removeAttribute("account");
         httpSession.removeAttribute("password");
         return "thymeleaf/login";

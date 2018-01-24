@@ -11,6 +11,7 @@
 
     <modules>
         <module>holdon-session</module>
+        <module>holdon-web</module>
     </modules>
 
 
