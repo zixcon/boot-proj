@@ -44,7 +44,7 @@ public class WebCorsConfig {
      * <p>
      * }
      * })
-     *
+     * 无法支持全局跨域访问
      * @return
      */
 //    @Bean
@@ -64,6 +64,27 @@ public class WebCorsConfig {
 //            }
 //        };
 //    }
+
+    /**
+     * $.ajax({
+     * type:"GET",
+     * url:"http://127.0.0.1:8080/lo",
+     * beforeSend: function(xhr) {
+     * xhr.setRequestHeader('x-auth-token',"98e15fc0-d4ec-49b6-a897-69ad7edfdc43");
+     * },
+     * data:{},
+     * crossDomain:true,
+     * xhrFields: {  withCredentials: true  },
+     * success:function(data,xhr,xhr1){
+     * console.log(data); console.log(xhr1);console.log(xhr1.getResponseHeader('x-auth-token'));
+     * },
+     * error:function(data){
+     * <p>
+     * }
+     * })
+     * 支持全局跨域访问
+     * @return
+     */
     @Bean
     public CorsFilter corsFilter() {
         CorsConfiguration corsConfiguration = new CorsConfiguration();
