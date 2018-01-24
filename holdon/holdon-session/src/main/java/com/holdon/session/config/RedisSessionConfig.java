@@ -36,7 +36,7 @@ public class RedisSessionConfig {
      *
      * @return
      */
-    // @Bean
+//     @Bean
     public HttpSessionStrategy cookieHttpSessionStrategy() {
         return new CookieHttpSessionStrategy();
     }

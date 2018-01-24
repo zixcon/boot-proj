@@ -1,5 +1,6 @@
 package com.holdon.session.handler;
 
+import com.holdon.session.handler.pojo.BaseResult;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -9,7 +10,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.UUID;
 
 /**
  * Created by wd on 2018/1/23.
@@ -35,6 +35,22 @@ public class SessionController {
         System.out.println(request.getSession().getId());
         map.put("request Url", request.getRequestURL());
         return map;
+    }
+
+
+    @RequestMapping(value = "/lo", method = RequestMethod.GET)
+    public BaseResult<String> firstResp1(HttpServletRequest request) {
+        BaseResult<String> login = new BaseResult<>();
+        login.setData(request.getSession().getId());
+        return login;
+    }
+
+    @RequestMapping(value = "/ses", method = RequestMethod.GET)
+    public BaseResult<String> session(HttpServletRequest request) {
+        BaseResult<String> login = new BaseResult<>();
+        login.setData(request.getSession().getId());
+        System.out.println(request.getSession().getId());
+        return login;
     }
 
     @RequestMapping(value = "/sessions", method = RequestMethod.GET)
