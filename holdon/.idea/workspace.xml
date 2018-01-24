@@ -19,10 +19,25 @@
       <file leaf-file-name="RedisSessionConfig.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/holdon-session/src/main/java/com/holdon/session/config/RedisSessionConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="28" column="44" lean-forward="false" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
+            <state relative-caret-position="203">
+              <caret line="29" column="26" lean-forward="true" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1195#1196#0" expanded="true" />
+                <element signature="e#1249#1250#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HeaderHttpSessionStrategy.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../../../../repository/org/springframework/session/spring-session/1.3.1.RELEASE/spring-session-1.3.1.RELEASE.jar!/org/springframework/session/web/http/HeaderHttpSessionStrategy.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="116">
+              <caret line="18" column="66" lean-forward="false" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="66" />
+              <folding>
+                <element signature="e#568#569#0" expanded="true" />
+                <element signature="e#625#626#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -31,9 +46,11 @@
       <file leaf-file-name="LoginIntercepter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/holdon-session/src/main/java/com/holdon/session/interceptor/LoginIntercepter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="106">
+              <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -41,8 +58,8 @@
       <file leaf-file-name="SessionController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/holdon-session/src/main/java/com/holdon/session/handler/SessionController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="42" column="54" lean-forward="true" selection-start-line="42" selection-start-column="54" selection-end-line="42" selection-end-column="54" />
+            <state relative-caret-position="140">
+              <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1200#1216#0" expanded="true" />
@@ -52,79 +69,66 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WebCorsConfig.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SessionRepositoryFilter.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../../../../repository/org/springframework/session/spring-session/1.3.1.RELEASE/spring-session-1.3.1.RELEASE.jar!/org/springframework/session/web/http/SessionRepositoryFilter.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InvocableHandlerMethod.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../../../../repository/org/springframework/spring-web/4.3.13.RELEASE/spring-web-4.3.13.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ApplicationHttpRequest.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../../../../repository/org/apache/tomcat/embed/tomcat-embed-core/8.5.23/tomcat-embed-core-8.5.23.jar!/org/apache/catalina/core/ApplicationHttpRequest.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="53">
+              <caret line="209" column="23" lean-forward="false" selection-start-line="209" selection-start-column="23" selection-end-line="209" selection-end-column="23" />
+              <folding>
+                <element signature="e#7401#7402#0" expanded="true" />
+                <element signature="e#7445#7446#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebCorsConfig.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/holdon-session/src/main/java/com/holdon/session/config/WebCorsConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="51" column="39" lean-forward="false" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="39" />
+            <state relative-caret-position="239">
+              <caret line="78" column="0" lean-forward="true" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1388#2000#0" expanded="true" />
-                <element signature="e#1999#2000#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/holdon-session/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="15" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RedisSessionInitializer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/holdon-session/src/main/java/com/holdon/session/config/RedisSessionInitializer.java">
+      <file leaf-file-name="CorsConfigurationSource.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../../../../repository/org/springframework/spring-web/4.3.13.RELEASE/spring-web-4.3.13.RELEASE.jar!/org/springframework/web/cors/CorsConfigurationSource.class">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" column="55" lean-forward="false" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
+              <caret line="10" column="30" lean-forward="false" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseResult.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/holdon-session/src/main/java/com/holdon/session/handler/pojo/BaseResult.java">
+      <file leaf-file-name="CorsFilter.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../../../../repository/org/springframework/spring-web/4.3.13.RELEASE/spring-web-4.3.13.RELEASE.jar!/org/springframework/web/filter/CorsFilter.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/holdon-session/src/main/java/com/holdon/session/handler/LoginController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="44" column="33" lean-forward="false" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginBO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/holdon-session/src/main/java/com/holdon/session/handler/pojo/LoginBO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/holdon-session/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="14" lean-forward="false" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+            <state relative-caret-position="135">
+              <caret line="23" column="45" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -168,11 +172,11 @@
         <option value="$PROJECT_DIR$/holdon-session/src/main/java/com/holdon/session/handler/LoginController.java" />
         <option value="$PROJECT_DIR$/holdon-session/src/main/java/com/holdon/session/config/RedisSessionInitializer.java" />
         <option value="$PROJECT_DIR$/holdon-session/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/holdon-session/src/main/java/com/holdon/session/interceptor/LoginIntercepter.java" />
         <option value="$PROJECT_DIR$/holdon-session/src/main/java/com/holdon/session/handler/pojo/BaseResult.java" />
         <option value="$PROJECT_DIR$/holdon-session/src/main/java/com/holdon/session/handler/pojo/LoginBO.java" />
         <option value="$PROJECT_DIR$/holdon-session/src/main/java/com/holdon/session/config/RedisSessionConfig.java" />
         <option value="$PROJECT_DIR$/holdon-session/src/main/java/com/holdon/session/handler/SessionController.java" />
+        <option value="$PROJECT_DIR$/holdon-session/src/main/java/com/holdon/session/interceptor/LoginIntercepter.java" />
         <option value="$PROJECT_DIR$/holdon-session/src/main/java/com/holdon/session/config/WebCorsConfig.java" />
       </list>
     </option>
@@ -392,6 +396,40 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="interceptor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="holdon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="holdon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="holdon-session" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="session" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="handler" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -482,7 +520,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SearchEverywhereHistoryKey" value="REdishttp&#9;PSI&#9;JAVA://org.springframework.session.data.redis.config.annotation.web.http.RedisHttpSessionConfiguration&#10;RedisProperties&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.data.redis.RedisProperties" />
+    <property name="SearchEverywhereHistoryKey" value="sessionreposi&#9;PSI&#9;JAVA://org.springframework.session.web.http.SessionRepositoryFilter&#10;REdishttp&#9;PSI&#9;JAVA://org.springframework.session.data.redis.config.annotation.web.http.RedisHttpSessionConfiguration&#10;RedisProperties&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.data.redis.RedisProperties" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -944,15 +982,16 @@
       <option name="presentableId" value="Default" />
       <updated>1516709214787</updated>
       <workItem from="1516709216456" duration="15378000" />
-      <workItem from="1516779163052" duration="5330000" />
+      <workItem from="1516779163052" duration="9593000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20708000" />
+    <option name="totallyTimeSpent" value="24971000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="15" y="23" width="1260" height="721" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -965,7 +1004,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24958949" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3990461" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3990461" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32467532" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -974,7 +1013,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290938" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290938" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3227345" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3227345" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26272577" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290938" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -995,7 +1034,15 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../../../repository/org/apache/tomcat/embed/tomcat-embed-core/8.5.23/tomcat-embed-core-8.5.23.jar!/org/apache/catalina/core/ApplicationHttpRequest.class</url>
+          <line>210</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="9" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1010,6 +1057,8 @@
           <caret line="17" column="14" lean-forward="false" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1195#1196#0" expanded="true" />
+            <element signature="e#1249#1250#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1018,7 +1067,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1027,7 +1078,7 @@
         <state relative-caret-position="195">
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1145,31 +1196,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../../repository/org/apache/tomcat/embed/tomcat-embed-core/8.5.23/tomcat-embed-core-8.5.23.jar!/javax/servlet/http/HttpServletRequest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-163">
-          <caret line="60" column="16" lean-forward="false" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../../../../repository/org/springframework/session/spring-session/1.3.1.RELEASE/spring-session-1.3.1.RELEASE.jar!/org/springframework/session/data/redis/config/ConfigureRedisAction.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="11" column="59" lean-forward="true" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../../repository/org/springframework/session/spring-session/1.3.1.RELEASE/spring-session-1.3.1.RELEASE.jar!/org/springframework/session/web/context/AbstractHttpSessionApplicationInitializer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="33" column="33" lean-forward="false" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../../repository/org/springframework/session/spring-session/1.3.1.RELEASE/spring-session-1.3.1.RELEASE.jar!/org/springframework/session/web/http/HeaderHttpSessionStrategy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1211,20 +1241,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/holdon-session/src/main/java/com/holdon/session/interceptor/LoginIntercepter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/holdon-session/src/main/java/com/holdon/session/handler/pojo/BaseResult.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1237,13 +1259,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/holdon-session/src/main/java/com/holdon/session/config/RedisSessionConfig.java">
+    <entry file="file://$PROJECT_DIR$/holdon-session/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="28" column="44" lean-forward="false" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="210">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1257,10 +1277,102 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../repository/org/springframework/session/spring-session/1.3.1.RELEASE/spring-session-1.3.1.RELEASE.jar!/org/springframework/session/web/context/AbstractHttpSessionApplicationInitializer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../repository/org/springframework/session/spring-session/1.3.1.RELEASE/spring-session-1.3.1.RELEASE.jar!/org/springframework/session/web/http/HttpSessionStrategy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/holdon-session/src/main/java/com/holdon/session/config/RedisSessionInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="53" lean-forward="true" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../repository/org/apache/tomcat/embed/tomcat-embed-core/8.5.23/tomcat-embed-core-8.5.23.jar!/javax/servlet/http/HttpServletRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="60" column="16" lean-forward="false" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../repository/org/apache/tomcat/embed/tomcat-embed-core/8.5.23/tomcat-embed-core-8.5.23.jar!/org/apache/catalina/core/ApplicationHttpRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="209" column="23" lean-forward="false" selection-start-line="209" selection-start-column="23" selection-end-line="209" selection-end-column="23" />
+          <folding>
+            <element signature="e#7401#7402#0" expanded="true" />
+            <element signature="e#7445#7446#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../repository/org/springframework/spring-web/4.3.13.RELEASE/spring-web-4.3.13.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../repository/org/springframework/session/spring-session/1.3.1.RELEASE/spring-session-1.3.1.RELEASE.jar!/org/springframework/session/web/http/RequestResponsePostProcessor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/holdon-session/src/main/java/com/holdon/session/config/RedisSessionConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="29" column="26" lean-forward="true" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1195#1196#0" expanded="true" />
+            <element signature="e#1249#1250#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../repository/org/springframework/session/spring-session/1.3.1.RELEASE/spring-session-1.3.1.RELEASE.jar!/org/springframework/session/web/http/HeaderHttpSessionStrategy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="18" column="66" lean-forward="false" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="66" />
+          <folding>
+            <element signature="e#568#569#0" expanded="true" />
+            <element signature="e#625#626#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/holdon-session/src/main/java/com/holdon/session/interceptor/LoginIntercepter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/holdon-session/src/main/java/com/holdon/session/handler/SessionController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="42" column="54" lean-forward="true" selection-start-line="42" selection-start-column="54" selection-end-line="42" selection-end-column="54" />
+        <state relative-caret-position="140">
+          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1200#1216#0" expanded="true" />
@@ -1269,31 +1381,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/holdon-session/src/main/java/com/holdon/session/config/RedisSessionInitializer.java">
+    <entry file="jar://$PROJECT_DIR$/../../../../repository/org/springframework/session/spring-session/1.3.1.RELEASE/spring-session-1.3.1.RELEASE.jar!/org/springframework/session/web/http/SessionRepositoryFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../repository/org/springframework/spring-web/4.3.13.RELEASE/spring-web-4.3.13.RELEASE.jar!/org/springframework/web/cors/CorsConfigurationSource.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="55" lean-forward="false" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
+          <caret line="10" column="30" lean-forward="false" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../repository/org/springframework/spring-web/4.3.13.RELEASE/spring-web-4.3.13.RELEASE.jar!/org/springframework/web/filter/CorsFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="23" column="45" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/holdon-session/src/main/java/com/holdon/session/config/WebCorsConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="51" column="39" lean-forward="false" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="39" />
+        <state relative-caret-position="239">
+          <caret line="78" column="0" lean-forward="true" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1388#2000#0" expanded="true" />
-            <element signature="e#1999#2000#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/holdon-session/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="15" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>

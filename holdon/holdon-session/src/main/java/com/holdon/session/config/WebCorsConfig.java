@@ -2,9 +2,9 @@ package com.holdon.session.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.web.servlet.config.annotation.CorsRegistry;
-import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
-import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
+import org.springframework.web.cors.CorsConfiguration;
+import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
+import org.springframework.web.filter.CorsFilter;
 
 /**
  * public class WebCorsConfig extends WebMvcConfigurerAdapter {
@@ -29,12 +29,16 @@ public class WebCorsConfig {
     /**
      * $.ajax({
      * type:"GET",
-     * url:"http://localhost:8080/lo",
+     * url:"http://localhost:8080/ses",
+     * beforeSend: function(xhr) {
+     * xhr.setRequestHeader("x-auth-token");
+     * },
+     * headers:{"x-auth-token":"b094c3a1-5486-4c8b-9cf2-c5cfd9d45edf"},
      * data:{},
      * crossDomain:true,
      * xhrFields: {  withCredentials: true  },
-     * success:function(data,xhr,xhr1){
-     * console.log(data); console.log(xhr1);console.log(xhr1.getResponseHeader('x-auth-token'));
+     * success:function(data,status,xhr){
+     * console.log(data); console.log(status);console.log(xhr.getResponseHeader('x-auth-token'));
      * },
      * error:function(data){
      * <p>
@@ -43,21 +47,32 @@ public class WebCorsConfig {
      *
      * @return
      */
+//    @Bean
+//    public WebMvcConfigurer corsConfigurer() {
+//        return new WebMvcConfigurerAdapter() {
+//            @Override
+//            public void addCorsMappings(CorsRegistry registry) {
+//                registry.addMapping("/**")
+//                        .allowedOrigins("*")
+//                        .allowCredentials(true)
+//                        .allowedHeaders("Origin, X-Requested-With, Content-Type, Accept")
+//                        .allowedMethods("GET", "POST", "DELETE", "PUT", "OPTIONS")
+//                        .exposedHeaders("x-auth-token")
+//                        .maxAge(3600)
+//                ;
+//                super.addCorsMappings(registry);
+//            }
+//        };
+//    }
     @Bean
-    public WebMvcConfigurer corsConfigurer() {
-        return new WebMvcConfigurerAdapter() {
-            @Override
-            public void addCorsMappings(CorsRegistry registry) {
-                registry.addMapping("/**")
-                        .allowedOrigins("*")
-                        .allowCredentials(true)
-                        .allowedHeaders("Origin, X-Requested-With, Content-Type, Accept")
-                        .allowedMethods("GET", "POST", "DELETE", "PUT", "OPTIONS")
-                        .exposedHeaders("x-auth-token")
-                        .maxAge(3600)
-                ;
-                super.addCorsMappings(registry);
-            }
-        };
+    public CorsFilter corsConfigurationSource() {
+        CorsConfiguration corsConfiguration = new CorsConfiguration();
+        corsConfiguration.setAllowCredentials(true);
+        corsConfiguration.addAllowedHeader("*");
+        corsConfiguration.addAllowedMethod("*");
+        corsConfiguration.addAllowedOrigin("*");
+        UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
+        source.registerCorsConfiguration("/**", corsConfiguration);
+        return new CorsFilter(source);
     }
 }

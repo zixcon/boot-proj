@@ -16,7 +16,7 @@ public class LoginIntercepter extends HandlerInterceptorAdapter {
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
         HttpSession httpSession = request.getSession();
         String token = (String) httpSession.getAttribute("x-auth-token");
-
+        request.getHeader("x-auth-token");
         return super.preHandle(request, response, handler);
     }
 
