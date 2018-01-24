@@ -65,7 +65,7 @@ public class WebCorsConfig {
 //        };
 //    }
     @Bean
-    public CorsFilter corsConfigurationSource() {
+    public CorsFilter corsFilter() {
         CorsConfiguration corsConfiguration = new CorsConfiguration();
         corsConfiguration.setAllowCredentials(true);
         corsConfiguration.addAllowedHeader("*");
