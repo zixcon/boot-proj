@@ -6,6 +6,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/holdon-session/pom.xml" />
         <option value="$PROJECT_DIR$/holdon-web/pom.xml" />
+        <option value="$PROJECT_DIR$/holdon-user/pom.xml" />
+        <option value="$PROJECT_DIR$/holdon-common/pom.xml" />
       </list>
     </option>
   </component>

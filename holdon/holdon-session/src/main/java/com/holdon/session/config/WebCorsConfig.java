@@ -27,24 +27,8 @@ import org.springframework.web.filter.CorsFilter;
 public class WebCorsConfig {
 
     /**
-     * $.ajax({
-     * type:"GET",
-     * url:"http://localhost:8080/ses",
-     * beforeSend: function(xhr) {
-     * xhr.setRequestHeader("x-auth-token");
-     * },
-     * headers:{"x-auth-token":"b094c3a1-5486-4c8b-9cf2-c5cfd9d45edf"},
-     * data:{},
-     * crossDomain:true,
-     * xhrFields: {  withCredentials: true  },
-     * success:function(data,status,xhr){
-     * console.log(data); console.log(status);console.log(xhr.getResponseHeader('x-auth-token'));
-     * },
-     * error:function(data){
-     * <p>
-     * }
-     * })
-     * 无法支持全局跨域访问
+     *
+     * 无法支持全局跨域访问，不知道为什么
      * @return
      */
 //    @Bean
@@ -83,6 +67,9 @@ public class WebCorsConfig {
      * }
      * })
      * 支持全局跨域访问
+     * 由于CorsFilter是定义在Web容器中的过滤器（实现了javax.servlet.Filter），因此其执行顺序先于Servlet，
+     * 而SpringMVC的入口是DispatchServlet，因此该Filter会先于SpringMVC的所有拦截器执行。
+     *
      * @return
      */
     @Bean
@@ -92,6 +79,7 @@ public class WebCorsConfig {
         corsConfiguration.addAllowedHeader("*");
         corsConfiguration.addAllowedMethod("*");
         corsConfiguration.addAllowedOrigin("*");
+        corsConfiguration.addExposedHeader("x-auth-token");
         UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
         source.registerCorsConfiguration("/**", corsConfiguration);
         return new CorsFilter(source);

@@ -1,4 +1,4 @@
-package com.holdon.session.handler.pojo;
+package com.holdon.common.pojo;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

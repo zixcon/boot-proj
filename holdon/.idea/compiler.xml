@@ -6,13 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="holdon-common" />
         <module name="holdon-session" />
+        <module name="holdon-user" />
         <module name="holdon-web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
       <module name="holdon" target="1.7" />
+      <module name="holdon-common" target="1.7" />
       <module name="holdon-session" target="1.7" />
+      <module name="holdon-user" target="1.7" />
       <module name="holdon-web" target="1.7" />
     </bytecodeTargetLevel>
   </component>

@@ -10,9 +10,16 @@
     <packaging>pom</packaging>
 
     <modules>
+        <module>holdon-common</module>
         <module>holdon-session</module>
+        <module>holdon-user</module>
         <module>holdon-web</module>
     </modules>
 
+    <dependencyManagement>
+        <dependencies>
+
+        </dependencies>
+    </dependencyManagement>
 
 </project>
