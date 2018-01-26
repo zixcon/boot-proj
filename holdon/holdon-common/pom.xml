@@ -44,10 +44,10 @@
 
     <build>
         <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
+            <!--<plugin>-->
+                <!--<groupId>org.springframework.boot</groupId>-->
+                <!--<artifactId>spring-boot-maven-plugin</artifactId>-->
+            <!--</plugin>-->
             <!-- spring boot使用spring-boot-maven-plugin打出的jar包不能直接提供给第三方依赖，需修改配置单独打一个可依赖的jar包 -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>

@@ -19,14 +19,14 @@ public class AuthTokenIntercepter extends HandlerInterceptorAdapter {
         HttpSession httpSession = request.getSession();
         //如果 session
         // String token = request.getHeader("x-auth-token");
-//        String token = httpSession.getId();
-//        String loginName = (String) httpSession.getAttribute("loginName");
-//        if (null == loginName || "".equals(loginName)) {
-//            this.wirteNoLoginResponse(request, response);
-//            return false;
-//        } else {
-//            // 获取url，ip 地址对其进行权限校验
-//        }
+        // String token = httpSession.getId();
+        String loginName = (String) httpSession.getAttribute("loginName");
+        if (null == loginName || "".equals(loginName)) {
+            this.wirteNoLoginResponse(request, response);
+            return false;
+        } else {
+            // 获取url，ip 地址对其进行权限校验
+        }
         return super.preHandle(request, response, handler);
     }
 
