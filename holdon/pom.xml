@@ -9,6 +9,10 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
+    <properties>
+        <mysql.version>6.0.6</mysql.version>
+    </properties>
+
     <modules>
         <module>holdon-common</module>
         <module>holdon-session</module>
@@ -18,7 +22,16 @@
 
     <dependencyManagement>
         <dependencies>
-
+            <dependency>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+                <version>${mysql-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>c3p0</groupId>
+                <artifactId>c3p0</artifactId>
+                <version>0.9.1.2</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 

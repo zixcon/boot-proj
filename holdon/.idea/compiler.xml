@@ -13,11 +13,11 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
-      <module name="holdon" target="1.7" />
-      <module name="holdon-common" target="1.7" />
-      <module name="holdon-session" target="1.7" />
-      <module name="holdon-user" target="1.7" />
-      <module name="holdon-web" target="1.7" />
+      <module name="holdon" target="1.5" />
+      <module name="holdon-common" target="1.8" />
+      <module name="holdon-session" target="1.8" />
+      <module name="holdon-user" target="1.8" />
+      <module name="holdon-web" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
