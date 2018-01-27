@@ -1,5 +1,6 @@
 package com.holdon.session.config;
 
+import org.springframework.cache.interceptor.KeyGenerator;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.redis.connection.jedis.JedisConnectionFactory;
@@ -56,4 +57,5 @@ public class RedisSessionConfig {
         JedisConnectionFactory connection = new JedisConnectionFactory();
         return connection;
     }
+
 }
