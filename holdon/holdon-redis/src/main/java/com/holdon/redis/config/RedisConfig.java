@@ -74,7 +74,7 @@ public class RedisConfig {
                 builder.append(obj.toString());
                 builder.append("|");
             }
-            return null;
+            return builder.toString();
         };
 //        return new KeyGenerator() {
 //            @Override
