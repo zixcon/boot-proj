@@ -1,6 +1,7 @@
 package com.holdon.redis;
 
 import com.alibaba.fastjson.JSON;
+import com.google.gson.Gson;
 import com.holdon.redis.example.ExampleEntity;
 import com.holdon.redis.example.RedisExampleService;
 import org.junit.Test;
@@ -31,6 +32,8 @@ public class HoldonRedisApplicationTests {
     @Test
     public void testFindEntity() {
         ExampleEntity entity = redisExampleService.getEntity("1L");
+        Gson gson = new Gson();
+        System.out.println(gson.toJson(entity));
         System.out.println(JSON.toJSONString(entity));
     }
 

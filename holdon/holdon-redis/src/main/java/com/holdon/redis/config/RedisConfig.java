@@ -1,5 +1,7 @@
 package com.holdon.redis.config;
 
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnClass;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
 import org.springframework.cache.CacheManager;
@@ -51,7 +53,7 @@ public class RedisConfig {
 //                .excludeFieldsWithoutExposeAnnotation();
 //        return gsonBuilder.create();
 //    }
-
+//
 //    @Bean
 //    @ConditionalOnClass(StringRedisTemplate.class)
 //    public StringRedisTemplate stringRedisTemplate(RedisConnectionFactory redisConnectionFactory, Gson gson) {
