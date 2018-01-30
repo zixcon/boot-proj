@@ -27,6 +27,7 @@
 
     <modules>
         <module>holdon-common</module>
+        <module>holdon-dao</module>
         <module>holdon-redis</module>
         <module>holdon-session</module>
         <module>holdon-user</module>

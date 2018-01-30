@@ -1,7 +1,7 @@
 package com.holdon.user.controller;
 
 import com.holdon.common.pojo.BaseResult;
-import com.holdon.user.pojo.AccountInfo;
+import com.holdon.dao.entity.AccountInfo;
 import com.holdon.user.service.UserRegisterService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;

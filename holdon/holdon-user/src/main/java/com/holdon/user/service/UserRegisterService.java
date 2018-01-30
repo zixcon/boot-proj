@@ -1,12 +1,13 @@
 package com.holdon.user.service;
 
-import com.holdon.user.mapper.AccountInfoMapper;
-import com.holdon.user.pojo.AccountInfo;
+import com.holdon.dao.entity.AccountInfo;
+import com.holdon.dao.mapper.AccountInfoMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.util.CollectionUtils;
 
 import java.util.List;
+
 
 /**
  * Created by wd on 2018/1/25.

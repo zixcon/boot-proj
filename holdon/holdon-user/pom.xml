@@ -42,6 +42,12 @@
             <version>0.0.1-SNAPSHOT</version>
             <classifier>api</classifier>
         </dependency>
+        <dependency>
+            <groupId>com.holdon.dao</groupId>
+            <artifactId>holdon-dao</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+            <classifier>api</classifier>
+        </dependency>
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -74,6 +80,11 @@
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastJson</artifactId>
         </dependency>
 
         <dependency>
