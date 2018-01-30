@@ -19,7 +19,10 @@ public class WebInterceptorConfig {
             public void addInterceptors(InterceptorRegistry registry) {
                 registry.addInterceptor(new AuthTokenIntercepter())
                         .addPathPatterns("/**")
-                        .excludePathPatterns("/login", "/user/register");
+                        .excludePathPatterns("/swagger-ui.html",
+                                "/v2/api-docs",
+                                "/login",
+                                "/user/register");
                 super.addInterceptors(registry);
             }
         };

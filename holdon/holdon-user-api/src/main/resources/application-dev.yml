@@ -59,6 +59,8 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
 
 #    lobalDataSourceStat: true
+swagger:
+  enable: true
 
 #logging:
 #  level:
