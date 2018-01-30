@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.holdon.user</groupId>
-    <artifactId>holdon-user</artifactId>
+    <artifactId>holdon-user-api</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>holdon-user</name>
+    <name>holdon-user-api</name>
     <description>Demo project for Spring Boot</description>
 
     <!--<parent>-->
@@ -75,11 +75,6 @@
                 <!--</exclusion>-->
                 <!-- <exclusion> <groupId>org.springframework</groupId> <artifactId>spring-jdbc</artifactId> </exclusion> -->
             </exclusions>
-        </dependency>
-
-        <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
         </dependency>
 
         <dependency>

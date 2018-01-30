@@ -27,10 +27,10 @@
 
     <modules>
         <module>holdon-common</module>
-        <module>holdon-dao</module>
         <module>holdon-redis</module>
         <module>holdon-session</module>
-        <module>holdon-user</module>
+        <module>holdon-dao</module>
+        <module>holdon-user-api</module>
         <module>holdon-web</module>
     </modules>
 

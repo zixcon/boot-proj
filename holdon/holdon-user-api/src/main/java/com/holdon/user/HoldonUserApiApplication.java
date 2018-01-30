@@ -6,15 +6,15 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class HoldonUserApplication {
+public class HoldonUserApiApplication {
 
     public static void main(String[] args) {
 //        SpringApplication.run(HoldonUserApplication.class, args);
         // 这里增加session 项目一起启动
         Object[] resources = {
-                HoldonDaoApplication.class,
                 HoldonSessionApplication.class,
-                HoldonUserApplication.class};
+                HoldonDaoApplication.class,
+                HoldonUserApiApplication.class};
         SpringApplication.run(resources, args);
     }
 }

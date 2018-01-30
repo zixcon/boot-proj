@@ -9,6 +9,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.http.converter.HttpMessageConverter;
 
 /**
+ * fastjson converter
  * Created by wd on 2018/1/30.
  */
 @Configuration
