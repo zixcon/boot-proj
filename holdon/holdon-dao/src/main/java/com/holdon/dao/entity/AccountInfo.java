@@ -1,6 +1,7 @@
 package com.holdon.dao.entity;
 
 import lombok.Data;
+import org.springframework.format.annotation.DateTimeFormat;
 
 import java.util.Date;
 
