@@ -1,9 +1,9 @@
 package com.holdon.user.config;
 
-import com.alibaba.fastjson.serializer.JSONSerializableSerializer;
 import com.alibaba.fastjson.serializer.SerializerFeature;
 import com.alibaba.fastjson.support.config.FastJsonConfig;
 import com.alibaba.fastjson.support.spring.FastJsonHttpMessageConverter;
+import com.alibaba.fastjson.support.springfox.SwaggerJsonSerializer;
 import org.springframework.boot.autoconfigure.web.HttpMessageConverters;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -27,7 +27,7 @@ public class WebHttpMessageConfig {
         fastJsonConfig.setSerializerFeatures(SerializerFeature.PrettyFormat);
 
         //3. swagger2 jackson -> fastjson
-//        fastJsonConfig.getSerializeConfig().put(Json.class, new JSONSerializableSerializer());
+        fastJsonConfig.getSerializeConfig().put(Json.class, new SwaggerJsonSerializer());
 
         //4. 在converter中添加配置信息
         fastHttpMessageConverter.setFastJsonConfig(fastJsonConfig);
