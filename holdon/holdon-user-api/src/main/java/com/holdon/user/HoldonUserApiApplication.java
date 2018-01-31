@@ -4,10 +4,9 @@ import com.holdon.dao.HoldonDaoApplication;
 import com.holdon.session.HoldonSessionApplication;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.web.support.SpringBootServletInitializer;
 
 @SpringBootApplication
-public class HoldonUserApiApplication extends SpringBootServletInitializer {
+public class HoldonUserApiApplication {
 
     public static void main(String[] args) {
 //        SpringApplication.run(HoldonUserApplication.class, args);
