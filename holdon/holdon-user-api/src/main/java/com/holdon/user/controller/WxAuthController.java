@@ -32,7 +32,7 @@ public class WxAuthController {
     }
 
     @ApiOperation(value = "获取appid", notes = "获取appid")
-    @RequestMapping(value = "/app", method = RequestMethod.POST)
+    @RequestMapping(value = "/appid", method = RequestMethod.POST)
     public BaseResult<WxAppInfo> getAppId() {
         BaseResult<WxAppInfo> result = new BaseResult<>();
         WxAppInfo wxAppInfo = wxAppAuthService.getHoldOnAppInfo();
