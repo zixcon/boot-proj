@@ -62,14 +62,14 @@ spring:
 swagger:
   enable: true
 
-#logging:
-##  pattern: %d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n
-##    console:
-#  # TRACE < DEBUG < INFO < WARN < ERROR < FATAL 。
-#  level:
-#    root: DEBUG
-#  path: ../../
-#  file: holdon.log
+logging:
+#  pattern: %d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n
+#    console:
+  # TRACE < DEBUG < INFO < WARN < ERROR < FATAL 。
+  level:
+    root: DEBUG
+  path: ../../
+  file: holdon.log
 
 
 

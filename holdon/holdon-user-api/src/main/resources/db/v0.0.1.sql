@@ -17,3 +17,20 @@ CREATE TABLE account_info (
   AUTO_INCREMENT = 0
   DEFAULT CHARSET = utf8;
 
+
+DROP TABLE IF EXISTS wx_app_info;
+CREATE TABLE wx_app_info (
+  id          INT(20)      NOT NULL AUTO_INCREMENT,
+  appid       VARCHAR(100) NOT NULL,
+  secret      VARCHAR(100) NOT NULL,
+  enable      TINYINT(1)   NOT NULL DEFAULT 1,
+  type        TINYINT(2)   NOT NULL DEFAULT 0,
+  create_time DATETIME     NOT NULL DEFAULT current_timestamp COMMENT '注册时间',
+  update_time DATETIME     NOT NULL DEFAULT current_timestamp ON UPDATE current_timestamp COMMENT '更新时间',
+  PRIMARY KEY (id),
+  UNIQUE (user_name)
+)
+  ENGINE = innodb
+  AUTO_INCREMENT = 0
+  DEFAULT CHARSET = utf8;
+
