@@ -15,6 +15,6 @@ public class WxAppAuthService {
     private WxAppInfoMapper wxAppInfoMapper;
 
     public WxAppInfo getHoldOnAppInfo() {
-        wxAppInfoMapper.findOne(0);
+        return wxAppInfoMapper.findOne(0);
     }
 }
