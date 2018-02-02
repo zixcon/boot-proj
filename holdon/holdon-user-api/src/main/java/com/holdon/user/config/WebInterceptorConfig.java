@@ -31,6 +31,7 @@ public class WebInterceptorConfig {
                                 "/v2/api-docs",
                                 "/swagger-resources/**",
                                 "/login",
+                                "/wx/auth/login",
                                 "/user/register");
                 super.addInterceptors(registry);
             }
