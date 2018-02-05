@@ -20,8 +20,8 @@ public class AuthTokenIntercepter extends HandlerInterceptorAdapter {
         //如果 session
         // String token = request.getHeader("x-auth-token");
         // String token = httpSession.getId();
-        String loginName = (String) httpSession.getAttribute("loginName");
-        if (null == loginName || "".equals(loginName)) {
+        String loginId = (String) httpSession.getAttribute("loginId");
+        if (null == loginId || "".equals(loginId)) {
             this.wirteNoLoginResponse(request, response);
             return false;
         } else {

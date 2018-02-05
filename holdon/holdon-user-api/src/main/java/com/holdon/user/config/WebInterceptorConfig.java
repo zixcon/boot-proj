@@ -32,7 +32,7 @@ public class WebInterceptorConfig {
                                 "/swagger-resources/**",
                                 "/login",
                                 "/wx/auth/login",
-                                "/wx/auth/appid",
+                                "/wx/auth/jscode",
                                 "/user/register");
                 super.addInterceptors(registry);
             }

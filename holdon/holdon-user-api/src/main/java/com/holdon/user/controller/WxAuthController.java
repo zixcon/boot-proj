@@ -2,14 +2,12 @@ package com.holdon.user.controller;
 
 import com.holdon.common.pojo.BaseResult;
 import com.holdon.common.wx.WxLoginInfo;
-import com.holdon.dao.entity.WxAppInfo;
 import com.holdon.user.service.WxAppAuthService;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+
+import javax.servlet.http.HttpSession;
 
 /**
  * {errMsg: "login:ok", code: "013P3cKw123Kda06KGKw18LrKw1P3cKy"}
@@ -31,12 +29,12 @@ public class WxAuthController {
         return result;
     }
 
-    @ApiOperation(value = "获取appid", notes = "获取appid")
-    @RequestMapping(value = "/appid", method = RequestMethod.POST)
-    public BaseResult<WxAppInfo> getAppId() {
-        BaseResult<WxAppInfo> result = new BaseResult<>();
-        WxAppInfo wxAppInfo = wxAppAuthService.getHoldOnAppInfo();
-        result.setData(wxAppInfo);
+    @ApiOperation(value = "获取登录用户情况", notes = "获取登录用户情况")
+    @RequestMapping(value = "/jscode", method = RequestMethod.GET)
+    public BaseResult<Void> wxLogin(HttpSession session,
+                                    @RequestParam(name = "jscode", required = true) String jscode) {
+        BaseResult<Void> result = new BaseResult<>();
+        wxAppAuthService.wxLogin(session, jscode);
         return result;
     }
 }
