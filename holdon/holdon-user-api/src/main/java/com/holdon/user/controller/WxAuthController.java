@@ -1,7 +1,7 @@
 package com.holdon.user.controller;
 
 import com.holdon.common.pojo.BaseResult;
-import com.holdon.common.wx.WxLoginInfo;
+import com.holdon.common.wx.WxUserInfo;
 import com.holdon.user.service.WxAppAuthService;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,15 +22,15 @@ public class WxAuthController {
     private WxAppAuthService wxAppAuthService;
 
     @ApiOperation(value = "登录", notes = "登录")
-    @RequestMapping(value = "/login", method = RequestMethod.POST)
-    public BaseResult<WxLoginInfo> login(@RequestBody WxLoginInfo info) {
-        BaseResult<WxLoginInfo> result = new BaseResult<>();
+    @RequestMapping(value = "/userInfo", method = RequestMethod.POST)
+    public BaseResult<WxUserInfo> login(@RequestBody WxUserInfo info) {
+        BaseResult<WxUserInfo> result = new BaseResult<>();
         result.setData(info);
         return result;
     }
 
     @ApiOperation(value = "获取登录用户情况", notes = "获取登录用户情况")
-    @RequestMapping(value = "/jscode", method = RequestMethod.GET)
+    @RequestMapping(value = "/login", method = RequestMethod.GET)
     public BaseResult<Void> wxLogin(HttpSession session,
                                     @RequestParam(name = "jscode", required = true) String jscode) {
         BaseResult<Void> result = new BaseResult<>();
