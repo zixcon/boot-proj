@@ -1,6 +1,7 @@
 package com.holdon.user;
 
 import com.holdon.dao.HoldonDaoApplication;
+import com.holdon.redis.HoldonRedisApplication;
 import com.holdon.session.HoldonSessionApplication;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -14,6 +15,7 @@ public class HoldonUserApiApplication {
         Object[] resources = {
                 HoldonSessionApplication.class,
                 HoldonDaoApplication.class,
+                HoldonRedisApplication.class,
                 HoldonUserApiApplication.class};
         SpringApplication.run(resources, args);
     }

@@ -48,6 +48,12 @@
             <version>0.0.1-SNAPSHOT</version>
             <classifier>api</classifier>
         </dependency>
+        <dependency>
+            <groupId>com.holdon.redis</groupId>
+            <artifactId>holdon-redis</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+            <classifier>api</classifier>
+        </dependency>
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -93,6 +99,10 @@
             <scope>test</scope>
         </dependency>
 
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
 
         <dependency>
             <groupId>com.alibaba</groupId>

@@ -36,7 +36,6 @@ public class WxAppAuthService {
         WxSessionCode sessionCode = this.jscode2session(jscode);
         wxAccountInfoService.insert(sessionCode);
         session.setAttribute("loginId", sessionCode.getOpenid());
-
     }
 
     /**

@@ -28,7 +28,7 @@ public class LoginAuthController {
         BaseResult<Void> result = new BaseResult<>();
         String code = loginAuthService.login(loginName, loginPass);
         if (LoginAuthEnum.SUCCESS.getCode().equals(code)) {
-            httpSession.setAttribute("loginName", loginName);
+            httpSession.setAttribute("loginId", loginName);
         }
         result.setCode(code);
         result.setMessage(LoginAuthEnum.getMsg(code));

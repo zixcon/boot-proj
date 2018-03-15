@@ -30,6 +30,7 @@ public class WebInterceptorConfig {
                                 "/webjars/**",
                                 "/v2/api-docs",
                                 "/swagger-resources/**",
+                                "/metrics",
                                 "/login",
                                 "/wx/auth/login",
                                 "/user/register");
